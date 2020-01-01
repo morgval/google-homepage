@@ -1,0 +1,58 @@
+a {
+    color: #808080;
+    text-decoration: none;
+}
+
+body{
+    word-spacing: 2px;
+    color: #808080;
+    font-family: sans-serif;
+}
+
+form{
+    display: block;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    padding: 0;
+    text-align: center;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    
+}
+
+nav{
+    position: fixed;
+    font-family: sans-serif;
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 2%;
+}
+
+nav.topleft{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav.topright{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+nav.bottomleft{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+nav.bottomright{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
