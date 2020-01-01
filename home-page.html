@@ -4,15 +4,17 @@
 
 <html>
     <head>
-        <link>
-        </link>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
 
     <body>
         <!-- Navigation bar at top -->
-        <nav>
+        <nav class="topleft">
             <a href = "about">About</a>
             <a href = "store">Store</a>
+        </nav>
+
+        <nav class="topright"> 
             <a href = "https://www.gmail.com">Gmail</a>
             <a href = "https://www.google.com/images">Images</a>
             <!-- Grid Menu - RESEARCH LATER -->
@@ -22,20 +24,25 @@
         <!-- Logo and Search bar in center of Page
         If this causes issues, remove img and group img and form under div tag -->
         <form>
-            <img class = "logo"
-             src = "google-logo.png"
+            <img src = "google-logo.png"
              alt = "Google Logo"
             >
+            <br><br>
             <input type = "text" name = "searchbar">
+            <br><br>
             <input type = "submit" value = "Google Search">
             <input type = "submit" value = "I'm Feeling Lucky">
         </form>
 
-        <nav>
+        <br>
+
+        <nav class="bottomleft">
             <a href= "advertising">Advertising</a>
             <a href= "business">Business</a>
             <a href= "howitworks">How Search Works</a>
+        </nav>
 
+        <nav class="bottomright">
             <a href= "privacy">Privacy</a>
             <a href= "terms">Terms</a>
             <a href= "settings">Settings</a>
